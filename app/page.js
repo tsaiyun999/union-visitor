@@ -19,7 +19,7 @@ export default function HomePage() {
           href="/search"
           className="block p-6 bg-white rounded-2xl shadow hover:shadow-lg transition text-center"
         >
-          <h2 className="text-2xl font-semibold text-gray-800">🔍 查詢地點</h2>
+          <h2 className="text-2xl font-semibold text-gray-800">🔍 查詢地點 </h2>
           <p className="text-gray-500 mt-2">輸入地點名稱，快速找到位置</p>
         </Link>
 
