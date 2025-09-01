@@ -49,7 +49,7 @@ export default function MapPage() {
             height={400}
             className="rounded-lg"
           />
-          <p className="text-center mt-2 text-gray-600">八甲校區地圖 B</p>
+          <p className="text-center mt-2 text-gray-600">八甲校區地圖 </p>
         </div>
       </div>
 
