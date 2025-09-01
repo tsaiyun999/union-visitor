@@ -1,5 +1,5 @@
 import { buildings } from "../../../data/buildings";
-
+import Link from "next/link";
 export default function Building({ params }) {
   const { name } = params;
   const building = buildings.find(b => b.name === decodeURIComponent(name));
