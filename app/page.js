@@ -13,14 +13,14 @@ export default function HomePage() {
   return (
     <div className="max-w-4xl mx-auto p-6">
       <h1 className="text-4xl font-bold text-center text-blue-700 mb-8">
-        聯合大學建築查詢系統
+        聯合大學訪客問路系統
       </h1>
 
       {/* 查詢輸入框 */}
       <div className="flex justify-center mb-6">
         <input
           type="text"
-          placeholder="輸入建築名稱..."
+          placeholder="輸入你想去哪裡..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="w-full max-w-md px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
